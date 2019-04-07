@@ -58,6 +58,7 @@ export default {
     onAnnotationCreated(annotation) {
       console.log("onAnnotationCreated: " + annotation.text);
 
+      // do not allow empty annotations
       if (annotation.text.trim() == '') {
         anno.removeAnnotation(annotation)
       }

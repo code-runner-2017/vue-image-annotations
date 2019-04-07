@@ -1,6 +1,12 @@
 # Vue Image Annotations
 
 This is an example Vue component that wraps the [Annotorious](https://annotorious.github.io/index.html) javascript library. 
+The AnnotatedImage component can easily connected to a backend service for retrieving and storing annotations as follows:
+
+- in the `init()` method you can invoke a backend service to retrieve the initial set of annotations. An example for initializing
+    annotations is given.
+    
+- the `onAnnotationCreated()`, `onAnnotationUpdated()`, and `onAnnotationDeleted()` methods can invoke a backend service.
 
 
 ## Project setup
