@@ -1,4 +1,7 @@
-# annotation-test
+# Vue Image Annotations
+
+This is an example Vue component that wraps the [Annotorious](https://annotorious.github.io/index.html) javascript library. 
+
 
 ## Project setup
 ```
